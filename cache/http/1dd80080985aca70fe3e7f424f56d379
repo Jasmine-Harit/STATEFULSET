@@ -1,0 +1,10 @@
+HTTP/2.0 200 OK
+Content-Length: 438
+Audit-Id: ed3e8221-8abc-4c71-ad40-f83edd76ee9d
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Wed, 16 Mar 2022 14:24:27 GMT
+X-Kubernetes-Pf-Flowschema-Uid: ff894248-fd5b-4395-b89a-3f351ae03edd
+X-Kubernetes-Pf-Prioritylevel-Uid: ac49eb9f-3532-4b1d-9f7f-fad5d5966050
+
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"batch/v1beta1","resources":[{"name":"cronjobs","singularName":"","namespaced":true,"kind":"CronJob","verbs":["create","delete","deletecollection","get","list","patch","update","watch"],"shortNames":["cj"],"categories":["all"],"storageVersionHash":"sd5LIXh4Fjs="},{"name":"cronjobs/status","singularName":"","namespaced":true,"kind":"CronJob","verbs":["get","patch","update"]}]}
